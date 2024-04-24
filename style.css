@@ -1,0 +1,106 @@
+:root {
+  --primary-font: "Inter", sans-serif;
+  --white: #ffffff;
+  --white-with-transparency: rgb(255, 255, 255, 0.2);
+  --neon-green: #c4f82a;
+  --grey: #333333;
+  --dark-grey: #1f1f1f;
+  --dark-grey-with-transparency: rgba(31, 31, 31, 0.8);
+  --black: #141414;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+
+main {
+  background-color: var(--black);
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+  place-content: center;
+}
+
+.card {
+  max-width: 32.7rem;
+  padding: 2.4rem;
+  box-shadow: 0 0.2rem 1rem var(--white-with-transparency);
+  -webkit-backdrop-filter: blur(0.5rem);
+          backdrop-filter: blur(0.5rem);
+  border: 0.1rem solid var(--white-with-transparency);
+  border-radius: 1.2rem;
+  margin: 2.4rem;
+  background-color: var(--dark-grey-with-transparency);
+  display: grid;
+  grid-template-columns: auto;
+  gap: 2.4rem;
+  justify-items: center;
+}
+
+figure {
+  margin: 0;
+}
+
+.profile-pic {
+  width: 8.8rem;
+  height: 8.8rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title {
+  margin: 0;
+  color: var(--white);
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.description {
+  color: var(--neon-green);
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+
+.bio {
+  color: var(--white);
+  margin: 0;
+}
+
+.links {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1.6rem;
+}
+
+.links li a:link,
+.links li a:visited {
+  color: var(--white);
+  font-weight: 700;
+  background-color: var(--grey);
+  text-decoration: none;
+  padding: 1.2rem;
+  display: block;
+  text-align: center;
+  border-radius: 0.8rem;
+}
+
+.links li a:hover,
+.links li a:active {
+  color: var(--grey);
+  background-color: var(--neon-green);
+}

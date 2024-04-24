@@ -1,4 +1,4 @@
-# Frontend Mentor - Challange name
+# Frontend Mentor - Social links profile
 
 ## Overview
 
@@ -6,11 +6,11 @@
 
 #### Desktop
 
-![](Screenshot)
+![](./design/desktop-design.png)
 
 #### Mobile
 
-![](Screenshot)
+![](./design/mobile-design.png)
 
 ### Links
 
