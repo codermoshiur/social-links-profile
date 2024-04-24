@@ -14,7 +14,7 @@
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/social-links-profile-using-css-grid-AhTKwdEvgf](https://www.frontendmentor.io/solutions/social-links-profile-using-css-grid-AhTKwdEvgf)
 - Live Site URL: [https://codermoshiur.github.io/social-links-profile/](https://codermoshiur.github.io/social-links-profile/)
 
 ## My process
